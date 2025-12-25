@@ -1,0 +1,204 @@
+{
+  "base_stations": [
+    {
+      "id": "BS001",
+      "name": "Delhi Central Tower",
+      "region": "North",
+      "city": "New Delhi",
+      "latitude": 28.6139,
+      "longitude": 77.2090,
+      "status": "operational",
+      "coverage_radius": 5
+    },
+    {
+      "id": "BS002",
+      "name": "Mumbai Andheri Station",
+      "region": "West",
+      "city": "Mumbai",
+      "latitude": 19.0760,
+      "longitude": 72.8777,
+      "status": "operational",
+      "coverage_radius": 4.5
+    },
+    {
+      "id": "BS003",
+      "name": "Bangalore Tech Park",
+      "region": "South",
+      "city": "Bangalore",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "status": "warning",
+      "coverage_radius": 6
+    },
+    {
+      "id": "BS004",
+      "name": "Kolkata Salt Lake Tower",
+      "region": "East",
+      "city": "Kolkata",
+      "latitude": 22.5726,
+      "longitude": 88.3639,
+      "status": "operational",
+      "coverage_radius": 5.5
+    },
+    {
+      "id": "BS005",
+      "name": "Chennai Marina Station",
+      "region": "South",
+      "city": "Chennai",
+      "latitude": 13.0827,
+      "longitude": 80.2707,
+      "status": "operational",
+      "coverage_radius": 5
+    },
+    {
+      "id": "BS006",
+      "name": "Hyderabad Hitech City",
+      "region": "South",
+      "city": "Hyderabad",
+      "latitude": 17.3850,
+      "longitude": 78.4867,
+      "status": "operational",
+      "coverage_radius": 7
+    },
+    {
+      "id": "BS007",
+      "name": "Pune Hinjewadi Tower",
+      "region": "West",
+      "city": "Pune",
+      "latitude": 18.5204,
+      "longitude": 73.8567,
+      "status": "maintenance",
+      "coverage_radius": 4
+    },
+    {
+      "id": "BS008",
+      "name": "Jaipur Pink City Station",
+      "region": "North",
+      "city": "Jaipur",
+      "latitude": 26.9124,
+      "longitude": 75.7873,
+      "status": "operational",
+      "coverage_radius": 6
+    },
+    {
+      "id": "BS009",
+      "name": "Ahmedabad SG Highway",
+      "region": "West",
+      "city": "Ahmedabad",
+      "latitude": 23.0225,
+      "longitude": 72.5714,
+      "status": "operational",
+      "coverage_radius": 5.5
+    },
+    {
+      "id": "BS010",
+      "name": "Chandigarh Sector 17",
+      "region": "North",
+      "city": "Chandigarh",
+      "latitude": 30.7333,
+      "longitude": 76.7794,
+      "status": "operational",
+      "coverage_radius": 4.5
+    }
+  ],
+  "network_kpis": {
+    "call_drop_rate": {
+      "current": 1.2,
+      "threshold": 2.0,
+      "unit": "%",
+      "status": "good",
+      "trend": [1.5, 1.4, 1.3, 1.2, 1.1, 1.2, 1.3]
+    },
+    "call_setup_success_rate": {
+      "current": 98.5,
+      "threshold": 95.0,
+      "unit": "%",
+      "status": "excellent",
+      "trend": [97.8, 98.0, 98.2, 98.3, 98.4, 98.5, 98.6]
+    },
+    "network_availability": {
+      "current": 99.7,
+      "threshold": 99.0,
+      "unit": "%",
+      "status": "excellent",
+      "trend": [99.5, 99.6, 99.6, 99.7, 99.7, 99.7, 99.8]
+    },
+    "average_throughput": {
+      "current": 45.8,
+      "threshold": 30.0,
+      "unit": "Mbps",
+      "status": "good",
+      "trend": [42.0, 43.5, 44.0, 45.0, 45.5, 45.8, 46.0]
+    },
+    "latency": {
+      "current": 28,
+      "threshold": 50,
+      "unit": "ms",
+      "status": "excellent",
+      "trend": [32, 30, 29, 28, 27, 28, 29]
+    },
+    "packet_loss": {
+      "current": 0.3,
+      "threshold": 1.0,
+      "unit": "%",
+      "status": "excellent",
+      "trend": [0.5, 0.4, 0.4, 0.3, 0.3, 0.3, 0.2]
+    },
+    "active_users": {
+      "current": 156789,
+      "threshold": 200000,
+      "unit": "users",
+      "status": "good",
+      "trend": [145000, 148000, 150000, 152000, 154000, 156789, 158000]
+    },
+    "spectrum_efficiency": {
+      "current": 2.8,
+      "threshold": 2.0,
+      "unit": "bps/Hz",
+      "status": "excellent",
+      "trend": [2.5, 2.6, 2.6, 2.7, 2.7, 2.8, 2.9]
+    }
+  },
+  "regional_performance": [
+    {
+      "region": "North",
+      "call_drop_rate": 1.1,
+      "availability": 99.8,
+      "throughput": 48.5,
+      "active_stations": 3
+    },
+    {
+      "region": "South",
+      "call_drop_rate": 1.3,
+      "availability": 99.6,
+      "throughput": 46.2,
+      "active_stations": 3
+    },
+    {
+      "region": "East",
+      "call_drop_rate": 1.2,
+      "availability": 99.7,
+      "throughput": 44.8,
+      "active_stations": 1
+    },
+    {
+      "region": "West",
+      "call_drop_rate": 1.4,
+      "availability": 99.5,
+      "throughput": 43.9,
+      "active_stations": 3
+    }
+  ],
+  "alerts": [
+    {
+      "severity": "warning",
+      "message": "Call drop rate slightly elevated in West region",
+      "timestamp": "2024-12-17T10:30:00"
+    },
+    {
+      "severity": "info",
+      "message": "Network maintenance scheduled for tonight 2AM-4AM",
+      "timestamp": "2024-12-17T09:15:00"
+    }
+  ]
+}
