@@ -1,9 +1,9 @@
-📡 #Telecom KPI Monitoring Portal
+📡 Telecom KPI Monitoring Portal
 
 A full-stack web application designed to monitor and visualize Telecom Network Key Performance Indicators (KPIs) on an interactive map-based interface.
 The project helps analyze network performance, signal quality, and operational status in a simple and visual manner.
 
-🚀 #Features
+🚀 Features
 
 📊 Telecom KPI data visualization
 
