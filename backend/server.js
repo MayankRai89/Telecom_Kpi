@@ -179,8 +179,9 @@ app.get("/api/base-stations", (req, res) => {
 });
 
 // ===================== REACT FALLBACK =====================
+// ===================== REACT FALLBACK =====================
 if (fs.existsSync(distPath)) {
-  app.get("*", (req, res) => {
+  app.use((req, res) => {
     res.sendFile(path.join(distPath, "index.html"));
   });
 }
