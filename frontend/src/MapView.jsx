@@ -2,9 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { MapPin, Radio, Activity, X } from 'lucide-react';
 import './MapView.css';
 
-// const API_BASE_URL = "https://telecom-backend.onrender.com/api";
-// const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
-const API_BASE_URL = "/api";
+const API_BASE_URL = "https://telecom-kpi-ten.vercel.app/api";
+
 
 
 
