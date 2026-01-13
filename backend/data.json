@@ -54,7 +54,7 @@
       "id": "BS006",
       "name": "Hyderabad Hitech City",
       "region": "South",
-      "city": "Hyderabad",
+      "city": "Hyderabad",  
       "latitude": 17.3850,
       "longitude": 78.4867,
       "status": "operational",
